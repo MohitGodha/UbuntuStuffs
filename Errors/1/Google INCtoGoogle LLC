@@ -1,0 +1,37 @@
+E: Repository 'http://dl.google.com/linux/chrome/deb stable Release' changed its 'Origin' value from 'Google, Inc.' to 'Google LLC'
+
+Solution:
+
+$ sudo apt update
+
+Ign:1 http://dl.google.com/linux/chrome/deb stable InRelease
+Hit:2 http://ppa.launchpad.net/gezakovacs/ppa/ubuntu bionic InRelease                              
+Hit:3 http://in.archive.ubuntu.com/ubuntu bionic InRelease                                         
+Hit:4 http://in.archive.ubuntu.com/ubuntu bionic-updates InRelease                                 
+Hit:5 http://security.ubuntu.com/ubuntu bionic-security InRelease                                  
+Hit:7 http://packages.microsoft.com/repos/vscode stable InRelease                                  
+Hit:8 http://in.archive.ubuntu.com/ubuntu bionic-backports InRelease                               
+Hit:9 https://repo.skype.com/deb stable InRelease                                                  
+Hit:10 https://packages.microsoft.com/repos/azure-cli bionic InRelease                             
+Get:6 http://ppa.launchpad.net/webupd8team/java/ubuntu bionic InRelease [15.4 kB]                  
+Get:11 http://dl.google.com/linux/chrome/deb stable Release [943 B]                                
+Get:12 http://dl.google.com/linux/chrome/deb stable Release.gpg [819 B]                            
+E: Repository 'http://ppa.launchpad.net/webupd8team/java/ubuntu bionic InRelease' changed its 'Label' value from 'Oracle Java (JDK) 8 / 9 Installer PPA' to 'Oracle Java (JDK) 8 Installer PPA'
+N: This must be accepted explicitly before updates for this repository can be applied. See apt-secure(8) manpage for details.
+Do you want to accept these changes and continue updating from this repository? [y/N] y
+Hit:13 https://packagecloud.io/slacktechnologies/slack/debian jessie InRelease                     
+E: Repository 'http://dl.google.com/linux/chrome/deb stable Release' changed its 'Origin' value from 'Google, Inc.' to 'Google LLC'
+N: This must be accepted explicitly before updates for this repository can be applied. See apt-secure(8) manpage for details.
+Do you want to accept these changes and continue updating from this repository? [y/N] y
+Get:14 http://ppa.launchpad.net/webupd8team/java/ubuntu bionic/main amd64 Packages [1,556 B]       
+Get:15 http://dl.google.com/linux/chrome/deb stable/main amd64 Packages [1,127 B]                  
+Get:16 http://ppa.launchpad.net/webupd8team/java/ubuntu bionic/main i386 Packages [1,556 B]        
+Fetched 20.4 kB in 11s (1,925 B/s)                                                                 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+21 packages can be upgraded. Run 'apt list --upgradable' to see them.
+
+$ sudo apt-get update
+
+$ sudo apt-get install -f
