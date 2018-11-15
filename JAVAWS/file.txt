@@ -1,0 +1,13 @@
+sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386
+
+sudo add-apt-repository ppa:webupd8team/java
+
+sudo apt-get update
+
+sudo apt-get install oracle-java8-installer
+
+update-alternatives --config javaws
+
+ln -s /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libnpjp2.so libnpjp2.so
+
+javaws consult-client.jnlp(test to check)
