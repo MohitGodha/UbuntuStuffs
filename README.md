@@ -1,3 +1,3 @@
 # UbuntuStuffs
 Several Installations and Configurations
-1.Jupyter Notebook
+- 1.Jupyter Notebook
