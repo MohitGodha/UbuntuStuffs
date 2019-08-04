@@ -11,3 +11,4 @@ Several Installations and Configurations in Ubuntu 18.04
 - Docker Installtion and configuration
 - Docker commands
 - Understanding Containers 
+- Errors
